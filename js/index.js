@@ -1,5 +1,5 @@
 const rotateBetweenWords = (value) => {
-    const wheelInner = document.querySelectorAll('.wheel__inner')
+    const wheelInner = document.querySelectorAll('.wheel__word')
     
     let deg = -60
     
@@ -10,7 +10,7 @@ const rotateBetweenWords = (value) => {
 }
 
 const rotateBetweenLetters = (value) => {
-    const wheelContent = document.querySelectorAll('.wheel__content')
+    const wheelContent = document.querySelectorAll('.wheel__letter')
     
     let deg = 0
     

@@ -29,14 +29,14 @@ body {
     border: 3px solid #ccc;
 }
 
-.wheel__inner {
+.wheel__word {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.wheel__content {
+.wheel__letter {
     outline: 1px dashed gray;
     position: absolute;
     left: 50%;
