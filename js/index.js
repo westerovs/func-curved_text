@@ -1,21 +1,23 @@
+// расстояние между словами
 const rotateBetweenWords = (value) => {
-    const wheelInner = document.querySelectorAll('.wheel__word')
+    const words = document.querySelectorAll('.wheel__word')
     
     let deg = -60
     
-    for (let item of wheelInner) {
-        item.style.transform = `rotate(${ deg }deg)`
+    for (let word of words) {
+        word.style.transform = `rotate(${ deg }deg)`
         deg += value
     }
 }
 
+// расстояние между буквами
 const rotateBetweenLetters = (value) => {
-    const wheelContent = document.querySelectorAll('.wheel__letter')
+    const letters = document.querySelectorAll('.wheel__letter')
     
     let deg = 0
     
-    for (let item of wheelContent) {
-        item.style.transform = `rotate(${ deg }deg)`
+    for (let letter of letters) {
+        letter.style.transform = `rotate(${ deg }deg)`
         deg += value
     }
     
